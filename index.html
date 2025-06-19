@@ -1,0 +1,154 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><link rel="stylesheet" type="text/css" href="cid:css-03c09d44-7af6-44a0-a6ea-80e6889c4249@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-9874e31a-8c21-42e0-8b34-71e9d1338096@mhtml.blink" />
+      
+        <title>Secretaria General</title>
+        <!-- jquery -->
+        <link rel="stylesheet" type="text/css" href="https://appweb.contraloria.gob.gt/bknSGFirmaFiniquito/css/jquery/jquery-ui.min.css">
+        <!-- bootstrap -->
+        <link rel="stylesheet" type="text/css" href="https://appweb.contraloria.gob.gt/bknSGFirmaFiniquito/css/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="https://appweb.contraloria.gob.gt/bknSGFirmaFiniquito/css/bootstrap/css/bootstrap-theme.min.css">
+        <!-- Animate -->
+        <link rel="stylesheet" type="text/css" href="https://appweb.contraloria.gob.gt/bknSGFirmaFiniquito/css/animate/animate.min.css">
+        <!-- Intro -->
+        <link rel="stylesheet" type="text/css" href="https://appweb.contraloria.gob.gt/bknSGFirmaFiniquito/css/intro/introjs.css">
+        <link rel="stylesheet" type="text/css" href="https://appweb.contraloria.gob.gt/bknSGFirmaFiniquito/css/intro/introjs-modern.css">	
+        <link rel="stylesheet" type="text/css" href="https://appweb.contraloria.gob.gt/bknSGFirmaFiniquito/css/intro/bootstrap-responsive.min.css">	
+        <!-- Alertify -->
+        <link rel="stylesheet" type="text/css" href="https://appweb.contraloria.gob.gt/bknSGFirmaFiniquito/css/alertifyjs/alertify.css">
+        <!-- Angular-Block-->
+        <link rel="stylesheet" type="text/css" href="https://appweb.contraloria.gob.gt/bknSGFirmaFiniquito/css/block/angular-block-ui.min.css">         
+    </head>
+    <body ng-app="secretariaGeneralApp" block-ui="main" class="ng-scope block-ui block-ui-anim-fade" aria-busy="false" data-new-gr-c-s-check-loaded="14.1240.0" data-gr-ext-installed="">         
+        <div class="container">
+            <!-- ngView:  --><div ng-view="" class="ng-scope"><header class="ng-scope">
+    <br>
+    <div style="display: flex; justify-content: center;">
+        <a href="https://www.contraloria.gob.gt/" class="custom-logo-link" rel="home" itemprop="url"><img src="https://www.contraloria.gob.gt/wp-content/uploads/2020/07/Finiquitos-1.png" class="custom-logo" alt="" itemprop="logo" width="1000" height="75"></a>
+    </div>
+    <hr>
+</header>
+<nav id="site-navigation" class="main-navigation clearfix ng-scope">
+    <div class="inner-wrap clearfix">
+        <div class="home-icon front_page_on">
+            <a href="https://www.contraloria.gob.gt/" title=""><i class="fa fa-home"></i></a>
+        </div>
+        <h4 class="menu-toggle"></h4>
+    </div>
+</nav>
+
+<form class="form-horizontal ng-pristine ng-valid ng-scope" ng-class="mostrarif">
+    <fieldset>
+         <h2 style="text-align: center;">Informacion del finiquito</h2>
+        <br>
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="idltipo">Tipo</label>  
+            <div class="col-md-4">
+                <div id="idltipo" class="form-control alert-info ng-binding">DOCUMENTO ELECTRONICO</div>
+            </div>
+        </div>
+        <!-- -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="ilnogestion">Numero de Gestion</label>  
+            <div class="col-md-4">
+                <div id="idlnogestion" class="form-control alert-info ng-binding">1060279</div>
+            </div>
+        </div>
+        <!-- -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="idlnoformulario">Correlativo</label>  
+            <div class="col-md-4">
+                <div id="idlnoformulario" class="form-control alert-info ng-binding">458736</div>
+            </div>
+        </div>
+        <!-- -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="idlnit">N.I.T.</label>
+            <div class="col-md-4">
+                <div id="idlnit" class="form-control alert-info ng-binding">9586474</div>
+            </div>
+        </div>        
+        <!-- -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="idlinteresado">Interesado</label>
+            <div class="col-md-4">
+                <div id="idlinteresado" class="form-control alert-info ng-binding">ELDER ANTONIO GONZALEZ COLOCHO</div>
+            </div>
+        </div>
+        <!-- -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="idlcui">C.U.I.</label>  
+            <div class="col-md-4">
+                <div id="idlcui" class="form-control alert-info ng-binding">1573494970101</div>
+            </div>
+        </div>   
+        <!-- -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="idlfechaimpresion">Fecha Emision</label>  
+            <div class="col-md-4">
+                <div id="idlfechaimpresion" class="form-control alert-info ng-binding">02 de Mayo de 2025</div>
+            </div>
+        </div>
+        <!-- -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="iltxtvalid"></label>  
+            <div class="col-md-4">                
+                <div id="iltxtvalid" class="alert alert-success">
+                    <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Finiquito valido.</div>
+            </div>
+        </div>        
+        <!-- opciones -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="illimpiar"></label>
+            <div class="col-md-8">
+                <button id="illimpiar" name="illimpiar" ng-click="activar(true)" class="btn btn-default">
+<a href="https://appweb.contraloria.gob.gt/bknSGFirmaFiniquito/frmGral.jsp#/validar" target="_blank" class="boton">Nueva Consulta</a>
+</button>
+
+            </div>
+        </div>
+        <!-- -->        
+    </fieldset>
+</form>
+
+<footer class="ng-scope"></footer>
+</div>
+        </div>
+        <!-- Angularjs -->
+        
+        
+        
+        <!-- jquery y bootstrap -->
+        
+        
+        
+        <!-- Animacion de servidor ocupado/loading -->
+        
+        
+        <!-- Componentes de Bootstrap escritos en angularjs -->
+        
+        <!-- Confirmar -->
+        
+        <!-- Notificar -->
+        
+        <!-- Intro (Ayuda)-->
+        
+                
+        <!-- Alertify-->
+                
+        <!-- Angular-Block-->
+                
+        <!-- Configuracion de angular y ruteos -->        
+        
+        <!-- Servicios -->
+        
+        
+        
+        <!-- Controladores -->        
+        
+        
+        
+        
+        
+    <iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe>
+
+
+        <div block-ui-container="" class="block-ui-container ng-scope"><div class="block-ui-overlay"></div><div class="block-ui-message-container" aria-live="assertive" aria-atomic="true"><div class="block-ui-message ng-binding" ng-class="$_blockUiMessageClass">Cargando ...</div></div></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowmode="open"><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
